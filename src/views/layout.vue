@@ -72,8 +72,8 @@ export default {
     }
   }
   .outer {
-    width: 100vw;
-    height: calc(100vh - 40px);
+    width: 100%;
+    height: auto;
     padding: 20px;
     background-color: #e2e2e2;
     .inner {
