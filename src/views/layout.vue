@@ -5,7 +5,11 @@
         {{ item.name }}
       </li>
     </ul>
-    <router-view />
+    <div class="outer">
+      <div class="inner">
+        <router-view />
+      </div>
+    </div>
   </div>
 </template>
 <script>
@@ -49,6 +53,7 @@ export default {
   margin: 0;
   padding: 0;
   list-style: none;
+  box-sizing: border-box;
 }
 </style>
 <style lang="scss" scoped>
@@ -64,6 +69,18 @@ export default {
     align-items: center;
     li {
       cursor: pointer;
+    }
+  }
+  .outer {
+    width: 100vw;
+    height: calc(100vh - 40px);
+    padding: 20px;
+    background-color: #e2e2e2;
+    .inner {
+      width: auto;
+      height: 100%;
+      background-color: #fff;
+      padding: 18px;
     }
   }
 }
