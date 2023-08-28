@@ -1,6 +1,19 @@
 <template>
-  <div>
-    <h3>购物车</h3>
+  <div class="cart">
+    <div class="two"></div>
+    <div class="two"></div>
+    <div class="two"></div>
+    <div class="two"></div>
+    <div class="two"></div>
+    <div class="two"></div>
+    <div class="two"></div>
+    <div class="two"></div>
+    <div class="two"></div>
+    <div class="two"></div>
+    <div class="two"></div>
+    <div class="two"></div>
+    <div class="two"></div>
+    <div class="two"></div>
   </div>
 </template>
 <script>
@@ -16,3 +29,16 @@ export default {
   methods: {},
 };
 </script>
+<style lang="scss" scoped>
+.cart {
+  .two {
+    width: 49%;
+    display: inline-block;
+    margin: 0.5%;
+    margin-top: 0;
+    height: 80px;
+    background-color: #ccc;
+    overflow: hidden;
+  }
+}
+</style>

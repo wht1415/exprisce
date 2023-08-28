@@ -27,6 +27,7 @@ export default {
   .one {
     width: 100%;
     margin: 10px 0;
+    margin-top: 0;
     height: 80px;
     background-color: #ccc;
   }
